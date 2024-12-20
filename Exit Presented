@@ -1,0 +1,20 @@
+# Exit Presented
+Fire this when the chatbot presents an agent, a link to a resource page or a Home Depot location
+
+
+## Javascript Code
+```js
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  "event": "Exit Presented",
+  "exitType": "Home Depot Location/Agent/Resource Page"
+}
+});
+```
+
+
+##Dynamic Variable Definitions
+| Path     | Definition | Possible Values | Data Type |
+|----------|----------|----------|----------|
+| exitType |  |  | String |
+|  |  | ||
