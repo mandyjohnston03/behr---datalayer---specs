@@ -1,5 +1,5 @@
-# Color Presented / view_item_list
-Example: https://www.behr.com/consumer/colors/paint/popular-colors/colors-by-hue/oranges
+# Colors Suggested / view_item_list
+Fire this whenever the chatbot presents a color suggestion. Items are in an array, so it should just be one event per presentation, with all colors represented.
 
 ## Javascript Code
 ```js
@@ -12,20 +12,9 @@ dataLayer.push({
      {
       item_id: "hdc-md-27",
       item_name: "tart orange",
-      affiliation: "Google Merchandise Store", //Don't think this is relavent
-      coupon: "SUMMER_FUN", //Don't think this is relavent
-      discount: 2.22, //Don't think this is relavent
       index: 3,
-      item_brand: "Behr Dynasty",
       item_category: "Orange", //Color Family
-      item_category2: "", //Interior/Exterior
-      item_category3: "", //Finish
-      item_category4: "",
-      item_category5: "",
-      item_list_name: "Chat",
-      item_variant: "green", //Don't think this is relavent
-      price: 10.03, //Don't think this is relavent
-      quantity: 3 //Don't think this is relavent
+      item_list_name: "Chat"
     }]
   }
 });
