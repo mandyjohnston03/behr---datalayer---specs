@@ -1,4 +1,4 @@
-# Rating
+# Dead End Presented
 Fire this whenever the chat bot sends a message that would result in a dead end to the conversation (i.e. "Sorry, can I get more detail"), or routes to an agent
 
 
