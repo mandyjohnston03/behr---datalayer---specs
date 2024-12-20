@@ -1,0 +1,20 @@
+# Exit Prompted
+Fire this whenever a user used the words "Buy/Purchase", "Home Depot", or "Customer Service"
+
+
+## Javascript Code
+```js
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  "event": "Exit Prompted",
+  "exitType": "Intent to purchase/Intent to speak to agent"
+}
+});
+```
+
+
+##Dynamic Variable Definitions
+| Path     | Definition | Possible Values | Data Type |
+|----------|----------|----------|----------|
+| exitType | If a user mentions "Buy/Purchase" or "Home Depot", return "Intent to purchase", If a user mentions "Customer Service" |  | String |
+|  |  | ||
