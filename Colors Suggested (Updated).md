@@ -14,8 +14,8 @@ dataLayer.push({
       item_name: "color_only",
       index: 1,
       item_category3: "tart orange", // Color Name
-	    item_category4: “hdc-md-27”, // Color ID
-	    item_category5: “Visualizer” //Context of display
+      item_category4: “hdc-md-27”, // Color ID
+      item_category5: “Visualizer” //Context of display
       item_variant: “Orange” // Color Family 
       item_list_name: "Chat"
     }]
