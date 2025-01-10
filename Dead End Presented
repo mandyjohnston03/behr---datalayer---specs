@@ -1,0 +1,20 @@
+# Dead End Presented
+Fire this whenever the chat bot sends a message that would result in a dead end to the conversation (i.e. "Sorry, can I get more detail"), or routes to an agent
+
+
+## Javascript Code
+```js
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  "event": "Dead End Presented",
+  "chatMessage": "Sorry, can I get more detail"
+}
+});
+```
+
+
+##Dynamic Variable Definitions
+| Path     | Definition | Possible Values | Data Type |
+|----------|----------|----------|----------|
+| chatMessage | Value should be the last message from the chatbot that resulted in a deadEnd |  | String |
+|  |  | ||
